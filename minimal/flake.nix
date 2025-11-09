@@ -40,9 +40,9 @@
     ...
   }: let
     # TODO replace with your own username, system and hostname
-    username = "__USERNAME__";
-    system = "__SYSTEM__"; # aarch64-darwin or x86_64-darwin
-    hostname = "__HOSTNAME__";
+    username = "m1r0";
+    system = "aarch64-darwin"; # aarch64-darwin or x86_64-darwin
+    hostname = "nihilist";
 
     specialArgs =
       inputs
