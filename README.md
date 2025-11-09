@@ -38,13 +38,13 @@ You can use this repository as a flake template to kickstart your own configurat
 Run the following command to create a new directory `nix-darwin` with the `minimal` template:
 
 ```bash
-nix flake init -t github:XXXM1R0XXX/nix-darwin-kickstarter#minimal ./nix-darwin
+nix flake new -t 'github:XXXM1R0XXX/nix-darwin-kickstarter#minimal' nix-darwin
 ```
 
 Or for the `rich-demo` template:
 
 ```bash
-nix flake init -t github:XXXM1R0XXX/nix-darwin-kickstarter#rich-demo ./nix-darwin
+nix flake new -t 'github:XXXM1R0XXX/nix-darwin-kickstarter#rich-demo' nix-darwin
 ```
 
 Then, navigate into the new directory (`cd nix-darwin`) and start customizing.
