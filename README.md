@@ -31,3 +31,21 @@ Customize (Almost) all your macOS settings via nix-darwin:
 - [macos-defaults](https://github.com/yannbertrand/macos-defaults)
 - [ryan4yin/nix-config/modules/darwin](https://github.com/ryan4yin/nix-config/tree/main/modules/darwin)
 
+## Usage
+
+You can use this repository as a flake template to kickstart your own configuration.
+
+Run the following command to create a new directory `nix-darwin` with the `minimal` template:
+
+```bash
+nix flake init -t github:XXXM1R0XXX/nix-darwin-kickstarter#minimal ./nix-darwin
+```
+
+Or for the `rich-demo` template:
+
+```bash
+nix flake init -t github:XXXM1R0XXX/nix-darwin-kickstarter#rich-demo ./nix-darwin
+```
+
+Then, navigate into the new directory (`cd nix-darwin`) and start customizing.
+
