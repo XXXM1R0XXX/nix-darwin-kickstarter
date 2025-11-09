@@ -23,7 +23,8 @@
     nixpkgs-darwin.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     # nixpkgs-darwin.url = "github:nixos/nixpkgs/nixpkgs-25.05-darwin";
     darwin = {
-      url = "github:lnl7/nix-darwin/nix-darwin-25.05";
+      # url = "github:lnl7/nix-darwin/nix-darwin-25.05";
+      url = "github:lnl7/nix-darwin";
       inputs.nixpkgs.follows = "nixpkgs-darwin";
     };
   };
@@ -56,7 +57,6 @@
         ./modules/nix-core.nix
         ./modules/system.nix
         ./modules/apps.nix
-
         ./modules/host-users.nix
       ];
     };
